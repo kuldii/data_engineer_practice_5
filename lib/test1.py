@@ -12,7 +12,7 @@ def connectDB():
 
 def readFile():
     allData = []
-    with open("assets/data/var_12/"+fileName+".pkl", 'rb') as f:
+    with open(f"assets/data/var_{varian}/{fileName}.pkl", 'rb') as f:
         allDataFile = pickle.load(f)
         for dataFile in allDataFile:
             data = dict()
@@ -25,7 +25,7 @@ def readFile():
     return allData
 
 db = connectDB()
-jobsC = db["jobs"]
+jobsC = db["jobs_1"]
 
 if(jobsC.count_documents({}) == 0):
     allData = readFile()
