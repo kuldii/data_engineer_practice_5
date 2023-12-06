@@ -28,13 +28,40 @@ def readFile():
 db = connectDB()
 jobsC = db["jobs"]
 
-if(jobsC.count_documents({}) == 0):
+# 648 is a total documents in first task
+# we need to add into the same collection
+if(jobsC.count_documents({}) == 648):
     allData = readFile()
     jobsC.insert_many(allData)
     
 # Output 1
-output_order_by_salary_desc = []
-for post in jobsC.find().sort("salary", pymongo.DESCENDING).limit(10):
-    output_order_by_salary_desc.append(post)
-with open("assets/output/1/output_1_order_by_salary_desc.json", "w") as outfile:
-    json.dump(output_order_by_salary_desc, outfile, indent=4, ensure_ascii=False)
+data_order_by_salary_asc = []
+totalSalary = 0
+output_order_by_salary_asc = dict()
+
+for post in jobsC.find().sort("salary", pymongo.ASCENDING):
+    totalSalary += post["salary"]
+    data_order_by_salary_asc.append(post)
+    
+output_order_by_salary_asc["avgSalary"] = totalSalary / len(data_order_by_salary_asc)
+output_order_by_salary_asc["minSalary"] = data_order_by_salary_asc[0]["salary"]
+output_order_by_salary_asc["maxSalary"] = data_order_by_salary_asc[-1]["salary"]
+
+with open("assets/output/2/output_1_order_by_salary_asc.json", "w") as outfile:
+    json.dump(output_order_by_salary_asc, outfile, indent=4, ensure_ascii=False)
+    
+# Output 2
+output_group_by_job = []
+for post in jobsC.aggregate([
+        {
+            "$group": {
+                "_id" : "$job",
+                "total":{
+                    "$sum": 1
+                }
+            }
+        }
+    ]):
+    output_group_by_job.append(post)
+with open("assets/output/2/output_2_group_by_job.json", "w") as outfile:
+    json.dump(output_group_by_job, outfile, indent=4, ensure_ascii=False)
