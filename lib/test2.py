@@ -142,7 +142,6 @@ for post in jobsC.aggregate([
 with open("assets/output/2/output_5_age_group_by_city.json", "w") as outfile:
     json.dump(output_age_group_by_city, outfile, indent=4, ensure_ascii=False)
     
-    
 # Output 6
 output_age_group_by_job = []
 for post in jobsC.aggregate([
@@ -168,3 +167,22 @@ for post in jobsC.aggregate([
 with open("assets/output/2/output_6_age_group_by_job.json", "w") as outfile:
     json.dump(output_age_group_by_job, outfile, indent=4, ensure_ascii=False)
     
+# Output 7
+output_max_salary_min_age = dict()
+data_max_salary_min_age = []
+for post in jobsC.aggregate([
+        {
+            "$group": {
+                "_id" : "$age",
+                "maxSalary": {
+                    "$max": "$salary"
+                }
+            }
+        }
+    ]):
+    data_max_salary_min_age.append(post)
+data_max_salary_min_age = sorted(data_max_salary_min_age, reverse=False, key=lambda post: post["_id"] )
+output_max_salary_min_age["minAge"] = data_max_salary_min_age[0]["_id"]
+output_max_salary_min_age["maxSalary"] = data_max_salary_min_age[0]["maxSalary"]
+with open("assets/output/2/output_7_max_salary_min_age.json", "w") as outfile:
+    json.dump(output_max_salary_min_age, outfile, indent=4, ensure_ascii=False)

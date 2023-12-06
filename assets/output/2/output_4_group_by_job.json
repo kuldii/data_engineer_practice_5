@@ -1,5 +1,12 @@
 [
     {
+        "_id": "Архитектор",
+        "totalData": 71,
+        "avgSalary": 114416.67605633802,
+        "minSalary": 22832,
+        "maxSalary": 198476
+    },
+    {
         "_id": "Инженер",
         "totalData": 65,
         "avgSalary": 99602.84615384616,
@@ -12,13 +19,6 @@
         "avgSalary": 108218.69117647059,
         "minSalary": 21112,
         "maxSalary": 194461
-    },
-    {
-        "_id": "Архитектор",
-        "totalData": 71,
-        "avgSalary": 114416.67605633802,
-        "minSalary": 22832,
-        "maxSalary": 198476
     },
     {
         "_id": "Продавец",
@@ -42,13 +42,6 @@
         "maxSalary": 198954
     },
     {
-        "_id": "Психолог",
-        "totalData": 74,
-        "avgSalary": 104454.35135135135,
-        "minSalary": 20584,
-        "maxSalary": 199439
-    },
-    {
         "_id": "Повар",
         "totalData": 73,
         "avgSalary": 114692.2602739726,
@@ -63,11 +56,11 @@
         "maxSalary": 192897
     },
     {
-        "_id": "Медсестра",
-        "totalData": 77,
-        "avgSalary": 115150.63636363637,
-        "minSalary": 22930,
-        "maxSalary": 197938
+        "_id": "Психолог",
+        "totalData": 74,
+        "avgSalary": 104454.35135135135,
+        "minSalary": 20584,
+        "maxSalary": 199439
     },
     {
         "_id": "Водитель",
@@ -84,6 +77,20 @@
         "maxSalary": 199315
     },
     {
+        "_id": "Медсестра",
+        "totalData": 77,
+        "avgSalary": 115150.63636363637,
+        "minSalary": 22930,
+        "maxSalary": 197938
+    },
+    {
+        "_id": "Менеджер",
+        "totalData": 89,
+        "avgSalary": 104614.55056179775,
+        "minSalary": 21307,
+        "maxSalary": 199593
+    },
+    {
         "_id": "Строитель",
         "totalData": 75,
         "avgSalary": 113673.93333333333,
@@ -96,13 +103,6 @@
         "avgSalary": 114208.36263736263,
         "minSalary": 21223,
         "maxSalary": 196614
-    },
-    {
-        "_id": "Менеджер",
-        "totalData": 89,
-        "avgSalary": 104614.55056179775,
-        "minSalary": 21307,
-        "maxSalary": 199593
     },
     {
         "_id": "Учитель",
