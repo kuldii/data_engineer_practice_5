@@ -25,7 +25,7 @@ def readFile():
     return allData
 
 db = connectDB()
-jobsC = db["jobs_1"]
+jobsC = db["jobs"]
 
 if(jobsC.count_documents({}) == 0):
     allData = readFile()
