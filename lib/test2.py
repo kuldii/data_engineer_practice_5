@@ -206,3 +206,35 @@ output_min_salary_max_age["maxAge"] = data_min_salary_max_age[0]["_id"]
 output_min_salary_max_age["minSalary"] = data_min_salary_max_age[0]["minSalary"]
 with open("assets/output/2/output_8_min_salary_max_age.json", "w") as outfile:
     json.dump(output_min_salary_max_age, outfile, indent=4, ensure_ascii=False)
+
+# Output 9
+output_age_group_by_city_with_filter = []
+for post in jobsC.aggregate([
+        {
+            "$match": {
+                "salary": { "$gt": 50000 }
+            }
+        },
+        {
+            "$group": {
+                "_id" : "$city",
+                "totalData":{
+                    "$sum": 1
+                },
+                "avgAge": {
+                    "$avg": "$age"
+                },
+                "minAge": {
+                    "$min": "$age"
+                },
+                "maxAge": {
+                    "$max": "$age"
+                }
+            }
+        }
+    ]):
+    output_age_group_by_city_with_filter.append(post)
+output_age_group_by_city_with_filter = sorted(output_age_group_by_city_with_filter, reverse=False, key=lambda post: post["totalData"])
+with open("assets/output/2/output_9_age_group_by_city_with_filter.json", "w") as outfile:
+    json.dump(output_age_group_by_city_with_filter, outfile, indent=4, ensure_ascii=False)
+    

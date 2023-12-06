@@ -1,47 +1,5 @@
 [
     {
-        "_id": "Учитель",
-        "totalData": 66,
-        "avgAge": 40.53030303030303,
-        "minAge": 18,
-        "maxAge": 64
-    },
-    {
-        "_id": "Бухгалтер",
-        "totalData": 91,
-        "avgAge": 42.395604395604394,
-        "minAge": 18,
-        "maxAge": 65
-    },
-    {
-        "_id": "Строитель",
-        "totalData": 75,
-        "avgAge": 41.74666666666667,
-        "minAge": 18,
-        "maxAge": 65
-    },
-    {
-        "_id": "Менеджер",
-        "totalData": 89,
-        "avgAge": 42.30337078651685,
-        "minAge": 18,
-        "maxAge": 64
-    },
-    {
-        "_id": "Медсестра",
-        "totalData": 77,
-        "avgAge": 39.935064935064936,
-        "minAge": 18,
-        "maxAge": 64
-    },
-    {
-        "_id": "Оператор call-центра",
-        "totalData": 70,
-        "avgAge": 39.42857142857143,
-        "minAge": 18,
-        "maxAge": 65
-    },
-    {
         "_id": "Психолог",
         "totalData": 74,
         "avgAge": 38.810810810810814,
@@ -49,16 +7,9 @@
         "maxAge": 65
     },
     {
-        "_id": "Врач",
-        "totalData": 74,
-        "avgAge": 41.87837837837838,
-        "minAge": 18,
-        "maxAge": 65
-    },
-    {
-        "_id": "Повар",
-        "totalData": 73,
-        "avgAge": 42.23287671232877,
+        "_id": "Водитель",
+        "totalData": 67,
+        "avgAge": 38.11940298507463,
         "minAge": 18,
         "maxAge": 65
     },
@@ -66,13 +17,6 @@
         "_id": "IT-специалист",
         "totalData": 72,
         "avgAge": 41.111111111111114,
-        "minAge": 18,
-        "maxAge": 65
-    },
-    {
-        "_id": "Водитель",
-        "totalData": 67,
-        "avgAge": 38.11940298507463,
         "minAge": 18,
         "maxAge": 65
     },
@@ -91,6 +35,13 @@
         "maxAge": 65
     },
     {
+        "_id": "Архитектор",
+        "totalData": 71,
+        "avgAge": 42.098591549295776,
+        "minAge": 18,
+        "maxAge": 65
+    },
+    {
         "_id": "Косметолог",
         "totalData": 68,
         "avgAge": 40.720588235294116,
@@ -105,9 +56,58 @@
         "maxAge": 65
     },
     {
-        "_id": "Архитектор",
-        "totalData": 71,
-        "avgAge": 42.098591549295776,
+        "_id": "Учитель",
+        "totalData": 66,
+        "avgAge": 40.53030303030303,
+        "minAge": 18,
+        "maxAge": 64
+    },
+    {
+        "_id": "Менеджер",
+        "totalData": 89,
+        "avgAge": 42.30337078651685,
+        "minAge": 18,
+        "maxAge": 64
+    },
+    {
+        "_id": "Бухгалтер",
+        "totalData": 91,
+        "avgAge": 42.395604395604394,
+        "minAge": 18,
+        "maxAge": 65
+    },
+    {
+        "_id": "Строитель",
+        "totalData": 75,
+        "avgAge": 41.74666666666667,
+        "minAge": 18,
+        "maxAge": 65
+    },
+    {
+        "_id": "Оператор call-центра",
+        "totalData": 70,
+        "avgAge": 39.42857142857143,
+        "minAge": 18,
+        "maxAge": 65
+    },
+    {
+        "_id": "Медсестра",
+        "totalData": 77,
+        "avgAge": 39.935064935064936,
+        "minAge": 18,
+        "maxAge": 64
+    },
+    {
+        "_id": "Повар",
+        "totalData": 73,
+        "avgAge": 42.23287671232877,
+        "minAge": 18,
+        "maxAge": 65
+    },
+    {
+        "_id": "Врач",
+        "totalData": 74,
+        "avgAge": 41.87837837837838,
         "minAge": 18,
         "maxAge": 65
     }
