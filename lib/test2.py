@@ -65,3 +65,28 @@ for post in jobsC.aggregate([
     output_group_by_job.append(post)
 with open("assets/output/2/output_2_group_by_job.json", "w") as outfile:
     json.dump(output_group_by_job, outfile, indent=4, ensure_ascii=False)
+    
+# Output 3
+output_group_by_city = []
+for post in jobsC.aggregate([
+        {
+            "$group": {
+                "_id" : "$city",
+                "totalData":{
+                    "$sum": 1
+                },
+                "avgSalary": {
+                    "$avg": "$salary"
+                },
+                "minSalary": {
+                    "$min": "$salary"
+                },
+                "maxSalary": {
+                    "$max": "$salary"
+                }
+            }
+        }
+    ]):
+    output_group_by_city.append(post)
+with open("assets/output/2/output_3_group_by_city.json", "w") as outfile:
+    json.dump(output_group_by_city, outfile, indent=4, ensure_ascii=False)
