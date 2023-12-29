@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "658f11b6f4f762943b0df044",
+    "title": "Brave New World",
+    "writer": "Aldous Huxley",
+    "price": 19.761000000000003,
+    "category": "Historical",
+    "year": 2015,
+    "rating": 4.4,
+    "id": "5a1de5de-fdb9-4076-9433-3d076a4efde3"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df00a",
+    "title": "Jane Eyre",
+    "writer": "Charlotte Bronte",
+    "price": 28.04,
+    "category": "Mystery",
+    "year": 2015,
+    "rating": 4.6,
+    "id": "fbac38d8-f36d-4f5a-90ca-6c8a0207bb2f"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df0ff",
+    "title": "The Iliad",
+    "writer": "Homer",
+    "price": 28.17,
+    "category": "Biography",
+    "year": 2015,
+    "rating": 1.1,
+    "id": "491d60d4-df2d-4f97-b982-9f8c3bf58e1e"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df0bd",
+    "title": "The Lord of the Rings",
+    "writer": "J.R.R. Tolkien",
+    "price": 23.77,
+    "category": "Mystery",
+    "year": 2015,
+    "rating": 2.5,
+    "id": "e4c455ce-4a8c-45a5-8c9d-01814097df75"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df003",
+    "title": "To Kill a Mockingbird",
+    "writer": "Harper Lee",
+    "price": 20.0,
+    "category": "Non-Fiction",
+    "year": 2015,
+    "rating": 1.6,
+    "id": "9e73bc4c-f503-4671-8fbf-4b74397dff6b"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df198",
+    "title": "Wuthering Heights",
+    "writer": "Emily Bronte",
+    "price": 10.63,
+    "category": "Biography",
+    "year": 2015,
+    "rating": 1.8,
+    "id": "603867a2-f0e8-4bcf-894d-fe278c3f57b9"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "Young Adult",
+    "min_price": 16.77,
+    "avg_price": 21.892000000000003,
+    "max_price": 26.67
+  },
+  {
+    "_id": "Historical",
+    "min_price": 10.605,
+    "avg_price": 17.9697,
+    "max_price": 29.053500000000003
+  },
+  {
+    "_id": "Non-Fiction",
+    "min_price": 15.95,
+    "avg_price": 18.835,
+    "max_price": 23.09
+  },
+  {
+    "_id": "Children's",
+    "min_price": 14.3,
+    "avg_price": 20.101428571428574,
+    "max_price": 25.98
+  },
+  {
+    "_id": "Classic",
+    "min_price": 10.62,
+    "avg_price": 20.73857142857143,
+    "max_price": 29.95
+  },
+  {
+    "_id": "Science Fiction",
+    "min_price": 10.25,
+    "avg_price": 18.933,
+    "max_price": 27.37
+  },
+  {
+    "_id": "Biography",
+    "min_price": 10.2,
+    "avg_price": 19.598000000000003,
+    "max_price": 29.11
+  },
+  {
+    "_id": "Mystery",
+    "min_price": 12.0,
+    "avg_price": 19.58555555555556,
+    "max_price": 28.59
+  },
+  {
+    "_id": "Fiction",
+    "min_price": 10.81,
+    "avg_price": 17.645,
+    "max_price": 26.16
+  },
+  {
+    "_id": "Fantasy",
+    "min_price": 12.33,
+    "avg_price": 20.015,
+    "max_price": 26.38
+  }
+]

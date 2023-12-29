@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "Non-Fiction",
+    "total": 42
+  },
+  {
+    "_id": "Science Fiction",
+    "total": 49
+  },
+  {
+    "_id": "Children's",
+    "total": 52
+  },
+  {
+    "_id": "Biography",
+    "total": 60
+  },
+  {
+    "_id": "Young Adult",
+    "total": 54
+  },
+  {
+    "_id": "Historical",
+    "total": 50
+  },
+  {
+    "_id": "Mystery",
+    "total": 44
+  },
+  {
+    "_id": "Fiction",
+    "total": 59
+  },
+  {
+    "_id": "Fantasy",
+    "total": 41
+  },
+  {
+    "_id": "Classic",
+    "total": 52
+  }
+]

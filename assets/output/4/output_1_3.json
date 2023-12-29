@@ -1,0 +1,612 @@
+[
+  {
+    "_id": "658f11b6f4f762943b0df101",
+    "title": "Brave New World",
+    "writer": "Aldous Huxley",
+    "price": 25.03,
+    "category": "Young Adult",
+    "year": 1965,
+    "rating": 4.4,
+    "id": "d9a0ae5a-96db-45c7-871a-5f31c1009d1a"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df0d7",
+    "title": "The Odyssey",
+    "writer": "Homer",
+    "price": 25.04,
+    "category": "Fantasy",
+    "year": 2001,
+    "rating": 3.4,
+    "id": "caa013e0-94ab-47ac-898e-0abab16f5a6b"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df1e7",
+    "title": "The Odyssey",
+    "writer": "Homer",
+    "price": 25.04,
+    "category": "Children's",
+    "year": 1984,
+    "rating": 2.9,
+    "id": "00c91d19-9225-4c03-a1b1-27f679194fee"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df039",
+    "title": "The Great Gatsby",
+    "writer": "F. Scott Fitzgerald",
+    "price": 25.053,
+    "category": "Historical",
+    "year": 1970,
+    "rating": 2.0,
+    "id": "67cb6acd-17e2-40d4-89dd-049655295b00"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df14b",
+    "title": "Animal Farm",
+    "writer": "George Orwell",
+    "price": 25.1265,
+    "category": "Historical",
+    "year": 1970,
+    "rating": 2.2,
+    "id": "75ad0646-9fca-46a9-961c-c3101cbb5be7"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df1c2",
+    "title": "Pride and Prejudice",
+    "writer": "Jane Austen",
+    "price": 25.13,
+    "category": "Fiction",
+    "year": 1984,
+    "rating": 1.7,
+    "id": "8a93686f-4472-4a05-b92c-24c176fc58f0"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df0e4",
+    "title": "Pride and Prejudice",
+    "writer": "Jane Austen",
+    "price": 25.17,
+    "category": "Fiction",
+    "year": 1984,
+    "rating": 4.0,
+    "id": "1007018f-b3b3-40f9-836c-90e6d92f4f18"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df077",
+    "title": "The Iliad",
+    "writer": "Homer",
+    "price": 25.21,
+    "category": "Fiction",
+    "year": 1996,
+    "rating": 1.7,
+    "id": "4ff23bb2-cdcc-4133-81d6-00b779877028"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df013",
+    "title": "Moby-Dick",
+    "writer": "Herman Melville",
+    "price": 25.24,
+    "category": "Science Fiction",
+    "year": 2012,
+    "rating": 3.2,
+    "id": "a2005df6-f19a-4abc-b189-7b4758606b12"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df05f",
+    "title": "Brave New World",
+    "writer": "Aldous Huxley",
+    "price": 25.25,
+    "category": "Biography",
+    "year": 1981,
+    "rating": 4.7,
+    "id": "9d991a59-e71f-45f2-9488-5fd78ee2846a"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df0f4",
+    "title": "Crime and Punishment",
+    "writer": "Fyodor Dostoevsky",
+    "price": 25.25,
+    "category": "Fiction",
+    "year": 1970,
+    "rating": 2.4,
+    "id": "bd59eb21-9955-4d44-b821-a27ee9c40a57"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df171",
+    "title": "The Iliad",
+    "writer": "Homer",
+    "price": 25.27,
+    "category": "Mystery",
+    "year": 1956,
+    "rating": 1.6,
+    "id": "c0d2b6d6-aeb7-463a-9bf8-a1cccee51455"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df01e",
+    "title": "The Iliad",
+    "writer": "Homer",
+    "price": 25.31,
+    "category": "Mystery",
+    "year": 1966,
+    "rating": 2.9,
+    "id": "951f27b3-36f2-4ce8-812d-370b7cd622dc"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df0a7",
+    "title": "Animal Farm",
+    "writer": "George Orwell",
+    "price": 25.33,
+    "category": "Classic",
+    "year": 1989,
+    "rating": 3.7,
+    "id": "1430dc33-0575-4b4c-ba2d-9d99baebc190"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df06d",
+    "title": "The Lord of the Rings",
+    "writer": "J.R.R. Tolkien",
+    "price": 25.35,
+    "category": "Biography",
+    "year": 1973,
+    "rating": 1.9,
+    "id": "62f79df8-a2bc-4ec8-a026-f6c3d199d138"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df0aa",
+    "title": "The Odyssey",
+    "writer": "Homer",
+    "price": 25.357499999999998,
+    "category": "Historical",
+    "year": 1969,
+    "rating": 1.1,
+    "id": "b70b0bd9-cf43-421b-9c1a-9ea353f15948"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df0db",
+    "title": "Pride and Prejudice",
+    "writer": "Jane Austen",
+    "price": 25.39,
+    "category": "Classic",
+    "year": 2013,
+    "rating": 4.3,
+    "id": "5ab15c96-0d04-4e80-873f-40222e186edd"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df12b",
+    "title": "Wuthering Heights",
+    "writer": "Emily Bronte",
+    "price": 25.41,
+    "category": "Classic",
+    "year": 1954,
+    "rating": 1.3,
+    "id": "be114090-6b25-4320-820b-1bc258695cbd"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df12d",
+    "title": "Brave New World",
+    "writer": "Aldous Huxley",
+    "price": 25.41,
+    "category": "Biography",
+    "year": 1974,
+    "rating": 4.2,
+    "id": "3d429fe0-0b0b-4ea4-ac35-c5d5abc925a7"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df05e",
+    "title": "Animal Farm",
+    "writer": "George Orwell",
+    "price": 25.49,
+    "category": "Young Adult",
+    "year": 1995,
+    "rating": 2.3,
+    "id": "ba62847e-eede-426f-90fb-779753c4ddb2"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df16e",
+    "title": "Don Quixote",
+    "writer": "Miguel de Cervantes",
+    "price": 25.5,
+    "category": "Science Fiction",
+    "year": 2005,
+    "rating": 2.0,
+    "id": "89a5666d-0ff1-4e52-aedc-3e63e5f05674"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df19d",
+    "title": "War and Peace",
+    "writer": "Leo Tolstoy",
+    "price": 25.56,
+    "category": "Mystery",
+    "year": 2022,
+    "rating": 1.5,
+    "id": "c871effe-eb09-4843-96d9-254ed3c430a6"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df1ca",
+    "title": "Pride and Prejudice",
+    "writer": "Jane Austen",
+    "price": 25.56,
+    "category": "Classic",
+    "year": 1999,
+    "rating": 3.2,
+    "id": "be0b49b4-e1ca-4b33-aaef-fdf4bbe78139"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df144",
+    "title": "Pride and Prejudice",
+    "writer": "Jane Austen",
+    "price": 25.57,
+    "category": "Classic",
+    "year": 1963,
+    "rating": 1.3,
+    "id": "50079c9e-04a1-4052-9196-1c33a103fcaf"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df138",
+    "title": "The Iliad",
+    "writer": "Homer",
+    "price": 25.588500000000003,
+    "category": "Historical",
+    "year": 1956,
+    "rating": 4.4,
+    "id": "36662688-20a9-4c44-bc37-d194fc2b59f5"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df01f",
+    "title": "The Chronicles of Narnia",
+    "writer": "C.S. Lewis",
+    "price": 25.62,
+    "category": "Non-Fiction",
+    "year": 2004,
+    "rating": 1.3,
+    "id": "9c154512-a2e7-4d12-b961-dd84089ee11a"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df01d",
+    "title": "Don Quixote",
+    "writer": "Miguel de Cervantes",
+    "price": 25.66,
+    "category": "Science Fiction",
+    "year": 1967,
+    "rating": 2.2,
+    "id": "c802aeb0-1569-477d-8cee-fb73032903c4"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df07f",
+    "title": "Brave New World",
+    "writer": "Aldous Huxley",
+    "price": 25.72,
+    "category": "Fantasy",
+    "year": 1955,
+    "rating": 3.5,
+    "id": "434fd596-0bd1-4251-853e-4d6d132380ab"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df131",
+    "title": "Pride and Prejudice",
+    "writer": "Jane Austen",
+    "price": 25.767,
+    "category": "Historical",
+    "year": 2010,
+    "rating": 4.9,
+    "id": "f6a93449-9ce5-4a97-8275-6e8d08fb7819"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df0a6",
+    "title": "Wuthering Heights",
+    "writer": "Emily Bronte",
+    "price": 25.77,
+    "category": "Young Adult",
+    "year": 2000,
+    "rating": 3.3,
+    "id": "2b614d3d-aa6d-479a-974c-36c3ba5efe9d"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df057",
+    "title": "War and Peace",
+    "writer": "Leo Tolstoy",
+    "price": 25.79,
+    "category": "Non-Fiction",
+    "year": 1954,
+    "rating": 1.9,
+    "id": "7a2cc7b5-3e8a-4196-9270-370965c09b0d"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df0d4",
+    "title": "Crime and Punishment",
+    "writer": "Fyodor Dostoevsky",
+    "price": 25.86,
+    "category": "Fiction",
+    "year": 1950,
+    "rating": 1.6,
+    "id": "75490a83-1e87-4f37-98b6-5dff8b0af843"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df13e",
+    "title": "The Catcher in the Rye",
+    "writer": "J.D. Salinger",
+    "price": 25.88,
+    "category": "Young Adult",
+    "year": 1994,
+    "rating": 4.0,
+    "id": "f4f992f9-a5d2-46d0-a88b-4af951285552"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df115",
+    "title": "Don Quixote",
+    "writer": "Miguel de Cervantes",
+    "price": 25.91,
+    "category": "Fantasy",
+    "year": 1970,
+    "rating": 4.9,
+    "id": "19942f76-9101-47fb-a9eb-b48b4269467d"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df08e",
+    "title": "The Odyssey",
+    "writer": "Homer",
+    "price": 25.92,
+    "category": "Fiction",
+    "year": 2011,
+    "rating": 2.1,
+    "id": "34eb2f13-839f-4f19-ac58-d9c867e71a8a"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df147",
+    "title": "War and Peace",
+    "writer": "Leo Tolstoy",
+    "price": 25.92,
+    "category": "Mystery",
+    "year": 1979,
+    "rating": 3.3,
+    "id": "91bace8a-d422-4783-a7fe-6eacc23a35eb"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df0bb",
+    "title": "The Chronicles of Narnia",
+    "writer": "C.S. Lewis",
+    "price": 25.98,
+    "category": "Children's",
+    "year": 2016,
+    "rating": 3.0,
+    "id": "165303af-7ca0-49ef-bc00-f61c563cc075"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df0fe",
+    "title": "The Catcher in the Rye",
+    "writer": "J.D. Salinger",
+    "price": 25.99,
+    "category": "Biography",
+    "year": 1958,
+    "rating": 1.9,
+    "id": "02a8796a-d215-45d9-beca-399a6006ac59"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df1a0",
+    "title": "The Iliad",
+    "writer": "Homer",
+    "price": 26.01,
+    "category": "Children's",
+    "year": 1991,
+    "rating": 4.9,
+    "id": "93f70ba9-195a-4129-9113-c25775927d31"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df056",
+    "title": "The Chronicles of Narnia",
+    "writer": "C.S. Lewis",
+    "price": 26.04,
+    "category": "Children's",
+    "year": 1993,
+    "rating": 2.5,
+    "id": "2a68fbe3-39d6-4179-8717-2e8894d67347"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df058",
+    "title": "The Chronicles of Narnia",
+    "writer": "C.S. Lewis",
+    "price": 26.06,
+    "category": "Mystery",
+    "year": 1978,
+    "rating": 2.2,
+    "id": "52cdcfca-10ae-4daf-a0f6-e4a2ec5b0df6"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df1c4",
+    "title": "The Catcher in the Rye",
+    "writer": "J.D. Salinger",
+    "price": 26.1,
+    "category": "Non-Fiction",
+    "year": 1999,
+    "rating": 2.8,
+    "id": "a9e49b47-eb83-4987-abb1-2bf180716a79"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df113",
+    "title": "The Iliad",
+    "writer": "Homer",
+    "price": 26.12,
+    "category": "Non-Fiction",
+    "year": 1984,
+    "rating": 1.4,
+    "id": "c5598c6a-3d96-40b7-a3b3-99540ee469c1"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df0ab",
+    "title": "The Chronicles of Narnia",
+    "writer": "C.S. Lewis",
+    "price": 26.16,
+    "category": "Fiction",
+    "year": 2023,
+    "rating": 4.1,
+    "id": "5aaf8b9f-2183-4f95-a82c-82e18da24ac6"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df07b",
+    "title": "Brave New World",
+    "writer": "Aldous Huxley",
+    "price": 26.24,
+    "category": "Science Fiction",
+    "year": 1977,
+    "rating": 3.0,
+    "id": "d4433b98-a0a8-4af6-9b50-51571b03f58c"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df05d",
+    "title": "Don Quixote",
+    "writer": "Miguel de Cervantes",
+    "price": 26.3,
+    "category": "Children's",
+    "year": 1966,
+    "rating": 3.2,
+    "id": "06d325b3-bb86-4d67-a23a-2c35538eb370"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df102",
+    "title": "Jane Eyre",
+    "writer": "Charlotte Bronte",
+    "price": 26.33,
+    "category": "Young Adult",
+    "year": 1960,
+    "rating": 2.2,
+    "id": "5666ed67-8363-47ad-a8f6-f2ec5487ac12"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df14e",
+    "title": "The Great Gatsby",
+    "writer": "F. Scott Fitzgerald",
+    "price": 26.37,
+    "category": "Science Fiction",
+    "year": 1979,
+    "rating": 4.8,
+    "id": "a8eea979-cad7-41fe-86d6-af0d2bdd2ca1"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df1ed",
+    "title": "War and Peace",
+    "writer": "Leo Tolstoy",
+    "price": 26.37,
+    "category": "Children's",
+    "year": 1996,
+    "rating": 4.3,
+    "id": "af044315-e1b5-48d9-9f38-48c3ee36e485"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df13a",
+    "title": "Pride and Prejudice",
+    "writer": "Jane Austen",
+    "price": 26.38,
+    "category": "Fantasy",
+    "year": 2021,
+    "rating": 3.5,
+    "id": "b1146bb0-deb8-4e37-8af0-d84a2c2f229d"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df107",
+    "title": "Animal Farm",
+    "writer": "George Orwell",
+    "price": 26.3865,
+    "category": "Historical",
+    "year": 1999,
+    "rating": 2.6,
+    "id": "b1c176f0-d449-4824-a722-265d4c78c648"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df0af",
+    "title": "The Great Gatsby",
+    "writer": "F. Scott Fitzgerald",
+    "price": 26.48,
+    "category": "Children's",
+    "year": 1993,
+    "rating": 2.6,
+    "id": "95e87aa3-ac73-44fe-870c-9d8d7f4416f4"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df08f",
+    "title": "Wuthering Heights",
+    "writer": "Emily Bronte",
+    "price": 26.59,
+    "category": "Biography",
+    "year": 2010,
+    "rating": 1.8,
+    "id": "747ff9a8-4b15-4be7-898d-ece9e90b12fd"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df19f",
+    "title": "The Catcher in the Rye",
+    "writer": "J.D. Salinger",
+    "price": 26.67,
+    "category": "Young Adult",
+    "year": 2022,
+    "rating": 2.5,
+    "id": "3ebc84a1-494d-4af8-be37-33bfe18e0237"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df09b",
+    "title": "Jane Eyre",
+    "writer": "Charlotte Bronte",
+    "price": 26.75,
+    "category": "Non-Fiction",
+    "year": 1954,
+    "rating": 5.0,
+    "id": "40f7ce6c-e95a-4143-b1e2-4ea35dcc9a3f"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df157",
+    "title": "Crime and Punishment",
+    "writer": "Fyodor Dostoevsky",
+    "price": 26.75,
+    "category": "Classic",
+    "year": 1968,
+    "rating": 1.1,
+    "id": "d3f0f7ac-bffe-4955-a0cc-bcb0f67c8c02"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df066",
+    "title": "War and Peace",
+    "writer": "Leo Tolstoy",
+    "price": 26.785500000000003,
+    "category": "Historical",
+    "year": 1982,
+    "rating": 4.8,
+    "id": "5d817725-6cfb-4c58-bd0f-b7eceaec988c"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df090",
+    "title": "The Catcher in the Rye",
+    "writer": "J.D. Salinger",
+    "price": 26.922,
+    "category": "Historical",
+    "year": 2008,
+    "rating": 1.8,
+    "id": "fa415273-a90b-43c2-9ea0-97b2be1d92e0"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df1b0",
+    "title": "Wuthering Heights",
+    "writer": "Emily Bronte",
+    "price": 26.94,
+    "category": "Biography",
+    "year": 2013,
+    "rating": 1.8,
+    "id": "9431adb6-5d76-4b62-9528-1fb05418cda3"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df17a",
+    "title": "Pride and Prejudice",
+    "writer": "Jane Austen",
+    "price": 26.95,
+    "category": "Young Adult",
+    "year": 1989,
+    "rating": 1.2,
+    "id": "d3bbed59-65c7-45a7-a386-cdcd4a64ecd7"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df03e",
+    "title": "Crime and Punishment",
+    "writer": "Fyodor Dostoevsky",
+    "price": 26.96,
+    "category": "Non-Fiction",
+    "year": 1989,
+    "rating": 1.6,
+    "id": "c720c029-4eb1-45bc-9a87-05ddbc4cbecf"
+  }
+]

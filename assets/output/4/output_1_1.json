@@ -1,0 +1,102 @@
+[
+  {
+    "_id": "658f11b6f4f762943b0df09b",
+    "title": "Jane Eyre",
+    "writer": "Charlotte Bronte",
+    "price": 26.75,
+    "category": "Non-Fiction",
+    "year": 1954,
+    "rating": 5.0,
+    "id": "40f7ce6c-e95a-4143-b1e2-4ea35dcc9a3f"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df11e",
+    "title": "The Chronicles of Narnia",
+    "writer": "C.S. Lewis",
+    "price": 10.88,
+    "category": "Children's",
+    "year": 1962,
+    "rating": 5.0,
+    "id": "57f88e89-83f5-4ca3-bd6a-7ff23e900fe3"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df037",
+    "title": "The Lord of the Rings",
+    "writer": "J.R.R. Tolkien",
+    "price": 29.08,
+    "category": "Science Fiction",
+    "year": 1981,
+    "rating": 4.9,
+    "id": "04de944f-6660-4176-967d-b550c104c8c8"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df012",
+    "title": "Don Quixote",
+    "writer": "Miguel de Cervantes",
+    "price": 17.52,
+    "category": "Science Fiction",
+    "year": 1996,
+    "rating": 4.9,
+    "id": "2912877e-59e5-4539-bada-86ee3a76106e"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df115",
+    "title": "Don Quixote",
+    "writer": "Miguel de Cervantes",
+    "price": 25.91,
+    "category": "Fantasy",
+    "year": 1970,
+    "rating": 4.9,
+    "id": "19942f76-9101-47fb-a9eb-b48b4269467d"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df131",
+    "title": "Pride and Prejudice",
+    "writer": "Jane Austen",
+    "price": 25.767,
+    "category": "Historical",
+    "year": 2010,
+    "rating": 4.9,
+    "id": "f6a93449-9ce5-4a97-8275-6e8d08fb7819"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df12c",
+    "title": "Brave New World",
+    "writer": "Aldous Huxley",
+    "price": 19.48,
+    "category": "Biography",
+    "year": 2016,
+    "rating": 4.9,
+    "id": "d734f0ce-794d-4e08-a173-4cacb7d47c7d"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df065",
+    "title": "The Chronicles of Narnia",
+    "writer": "C.S. Lewis",
+    "price": 14.24,
+    "category": "Fiction",
+    "year": 2008,
+    "rating": 4.9,
+    "id": "4fb94017-255f-431b-b73f-a4a13a544fa1"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df0a1",
+    "title": "The Iliad",
+    "writer": "Homer",
+    "price": 28.42,
+    "category": "Fiction",
+    "year": 2003,
+    "rating": 4.9,
+    "id": "a4b4dfbe-9da5-4022-89bd-7d8d174fc4f7"
+  },
+  {
+    "_id": "658f11b6f4f762943b0df054",
+    "title": "The Odyssey",
+    "writer": "Homer",
+    "price": 11.05,
+    "category": "Biography",
+    "year": 1952,
+    "rating": 4.9,
+    "id": "2e0d50a0-6388-432b-bbab-0b4e11369b79"
+  }
+]
