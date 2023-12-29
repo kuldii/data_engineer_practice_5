@@ -41,7 +41,7 @@ def default_json(obj):
     raise TypeError("Type not serializable")
 
 def saveToJson(name, data):
-    with open("assets/output/2/resolved/"+name, 'w') as jsonFile:
+    with open("assets/output/3/resolved/"+name, 'w') as jsonFile:
         json.dump(data, jsonFile, indent=2, cls=NpEncoder, ensure_ascii=False, default=default_json)
         
 class NpEncoder(json.JSONEncoder):
