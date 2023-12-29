@@ -7,8 +7,8 @@ import json
 def inserData(coll, data, isMany=False):
     if(isMany == True):
         coll.insert_many(allData)
-    # else:
-    #     coll.
+    else:
+        coll.insert_one(data)
 
 def getDataPklFile(name, ext, varian):
     data = None
