@@ -6,7 +6,7 @@ import json
 
 def inserData(coll, data, isMany=False):
     if(isMany == True):
-        coll.insert_many(allData)
+        coll.insert_many(data)
     else:
         coll.insert_one(data)
 
