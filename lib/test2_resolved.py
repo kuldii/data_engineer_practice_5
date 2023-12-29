@@ -53,7 +53,7 @@ jobsC = connectCollection(db,"jobs")
 allData = getDataMsgpackFile(fileName, ".msgpack", varian)
 
 if(jobsC.count_documents({}) == 648):
-    inserData(jobsC, allData, isMany=True)
+    insertData(jobsC, allData, isMany=True)
     
 query_1 = [job for job in jobsC.aggregate([
     {
