@@ -4,7 +4,7 @@ import msgpack
 import pymongo
 import json
 
-def inserData(coll, data, isMany=False):
+def insertData(coll, data, isMany=False):
     if(isMany == True):
         coll.insert_many(data)
     else:
