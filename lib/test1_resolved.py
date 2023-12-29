@@ -4,7 +4,7 @@ import pickle
 import pymongo
 import json
 
-def inserData(coll, data, isMany=False):
+def insertData(coll, data, isMany=False):
     if(isMany == True):
         coll.insert_many(data)
     else:
@@ -53,7 +53,7 @@ jobsC = connectCollection(db,"jobs")
 allData = getDataPklFile(fileName, ".pkl", varian)
 
 if(jobsC.count_documents({}) == 0):
-    inserData(jobsC, allData, isMany=True)
+    insertData(jobsC, allData, isMany=True)
     
 query_1 = [job for job in jobsC.find().sort("salary", pymongo.DESCENDING).limit(10)]
 saveToJson("output_1.json", query_1)
